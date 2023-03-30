@@ -5,3 +5,4 @@
 custom-elements.json
 # top level source
 /dist
+/build
