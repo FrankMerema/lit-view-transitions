@@ -11,7 +11,7 @@ export class FvCounter extends LitElement {
       inset: 50% 0 auto;
       transform: translateY(-50%);
       font-size: 25vw;
-      view-transition-name: count;
+      view-transition-name: fv-counter;
       /* This won't be required soon. In fact, it already works without this in Canary */
       contain: layout;
     }

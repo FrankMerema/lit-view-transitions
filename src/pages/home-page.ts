@@ -23,6 +23,7 @@ export class HomePage extends LitElement {
 
   private decrease() {
     transitionHelper({
+      classNames: ['decrease'],
       updateDOM: async () => {
         this.counter--;
         await this.updateComplete;

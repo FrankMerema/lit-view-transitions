@@ -1,0 +1,36 @@
+/* Custom transition */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+}
+
+@keyframes fade-out {
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes number-up-leave {
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes number-up-in {
+    from {
+        transform: rotate(-90deg);
+    }
+}
+
+@keyframes number-down-in {
+    from {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes number-down-leave {
+    to {
+        transform: rotate(-90deg);
+    }
+}

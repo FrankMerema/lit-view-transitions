@@ -1,0 +1,19 @@
+::view-transition-old(fv-counter),
+::view-transition-new(fv-counter) {
+    animation-duration: 200ms;
+    animation-name: fade-in, number-up-in;
+}
+
+::view-transition-old(fv-counter) {
+    animation-name: fade-out, number-up-leave;
+}
+
+.decrease::view-transition-old(fv-counter),
+.decrease::view-transition-new(fv-counter) {
+    animation-duration: 200ms;
+    animation-name: fade-in, number-down-in;
+}
+
+.decrease::view-transition-old(fv-counter) {
+    animation-name: fade-out, number-down-leave;
+}

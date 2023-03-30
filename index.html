@@ -7,33 +7,12 @@
     <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
     <script src="./node_modules/lit/polyfill-support.js"></script>
     <script type="module" src="./dist/pages/home-page.js"></script>
+    <link rel="stylesheet" href="./dist/styles/transitions.css">
+    <link rel="stylesheet" href="./dist/styles/view-transitions/fv-counter.css">
     <style>
       html {
-        background: black;
-        color: #fff;
-      }
-
-      /* Custom transition */
-      @keyframes rotate-out {
-        to {
-          transform: rotate(90deg);
-        }
-      }
-
-      @keyframes rotate-in {
-        from {
-          transform: rotate(-90deg);
-        }
-      }
-
-      html::view-transition-old(count),
-      html::view-transition-new(count) {
-        animation-duration: 200ms;
-        animation-name: -ua-view-transition-fade-in, rotate-in;
-      }
-
-      html::view-transition-old(count) {
-        animation-name: -ua-view-transition-fade-out, rotate-out;
+          background: black;
+          color: #fff;
       }
     </style>
   </head>
