@@ -1,0 +1,5 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "exec": "rimraf dist/* && tsc && cp -R ./src/styles ./dist/"
+}

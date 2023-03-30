@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "build:watch": "tsc --watch",
+    "build:watch": "nodemon",
     "build:prod": "npm run build && rollup -c",
     "clean": "rimraf my-element.{d.ts,d.ts.map,js,js.map} test/my-element.{d.ts,d.ts.map,js,js.map} test/my-element_test.{d.ts,d.ts.map,js,js.map}",
     "lint": "npm run lint:lit-analyzer && npm run lint:eslint",
@@ -42,6 +42,7 @@
     "@webcomponents/webcomponentsjs": "^2.6.0",
     "eslint": "^8.15.0",
     "lit-analyzer": "^1.2.1",
+    "nodemon": "^2.0.22",
     "prettier": "^2.6.2",
     "rimraf": "^4.4.1",
     "rollup": "^3.20.2",
