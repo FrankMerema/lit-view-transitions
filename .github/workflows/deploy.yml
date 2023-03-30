@@ -58,7 +58,7 @@ jobs:
       - name: Install dependencies 👨🏻‍💻
         run: yarn
 
-      - name: Build static nuxt page 🏗
+      - name: Build static page 🏗
         run: yarn build:prod
 
       - name: Upload artifact 🌤
