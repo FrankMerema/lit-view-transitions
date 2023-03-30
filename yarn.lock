@@ -922,10 +922,10 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@custom-elements-manifest/analyzer@^0.6.3":
-  version "0.6.9"
-  resolved "https://registry.yarnpkg.com/@custom-elements-manifest/analyzer/-/analyzer-0.6.9.tgz#556224d182334a57bc7040ea84760af803101950"
-  integrity sha512-N6GQtDYf9yiFpf0fpjwQ7rtKlBbt9CDqXGenfrMQlo7RfC5HJVH9ZkrKsNBETiV01WPdvUBJRgag+Tbafb+jXA==
+"@custom-elements-manifest/analyzer@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@custom-elements-manifest/analyzer/-/analyzer-0.8.0.tgz#757bdd5fd97c8b19ddcec05d2691557df0bc10cc"
+  integrity sha512-w+OMAWW4x04eE6dpEInoVkk6ITEsQTsbx/jv7ofbl5QniXFiY5CFwWCVVAxCd3pTQbXd2Y9VxwefVJuGs/vNWw==
   dependencies:
     "@custom-elements-manifest/find-dependencies" "^0.0.5"
     "@github/catalyst" "^1.6.0"
