@@ -24,7 +24,7 @@
     "test:prod:watch": "MODE=prod wtr --watch"
   },
   "dependencies": {
-    "lit": "^2.2.4"
+    "lit": "^2.7.5"
   },
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "^0.8.0",
